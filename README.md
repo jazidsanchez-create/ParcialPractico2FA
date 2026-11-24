@@ -64,6 +64,13 @@ Sistema de registro e inicio de sesión con **autenticación de dos factores (TO
 
 ![Duplicados](docs/img/02-registro-duplicado.png)
 
+**Otras validaciones del formulario** (usuario inválido, contraseñas que no coinciden, contraseña corta y sin número):
+
+![Usuario inválido](docs/img/20-validacion-usuario-invalido.png)
+![Contraseñas no coinciden](docs/img/21-contrasenas-no-coinciden.png)
+![Contraseña corta](docs/img/22-contrasena-corta.png)
+![Contraseña sin número](docs/img/23-contrasena-sin-numero.png)
+
 **Código QR generado al crear el registro** y confirmación del 2FA:
 
 ![QR](docs/img/03-qr.png)
