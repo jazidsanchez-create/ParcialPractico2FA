@@ -91,6 +91,11 @@ La acción de modificar es la **activación del 2FA**: el sistema actualiza (`UP
 
 ![Antes de modificar](docs/img/16-modificar-antes.png)
 
+**Activación:** el usuario escanea el QR, escribe el código de 6 dígitos y el sistema confirma:
+
+![QR y código](docs/img/25-modificar-qr-codigo.png)
+![Activación confirmada](docs/img/26-modificar-activacion-mensaje.png)
+
 **Después** (2FA activado, `secret_2fa` con valor):
 
 ![Después de modificar](docs/img/17-modificar-despues.png)
@@ -104,6 +109,10 @@ El usuario `app_web` **no tiene el privilegio `DELETE`**, por el principio de pr
 **Desactivación del 2FA con código:**
 
 ![Desactivar 2FA](docs/img/18-eliminar-desactivar-2fa.png)
+
+**Confirmación en pantalla** (el sistema informa que el 2FA fue desactivado):
+
+![Mensaje de 2FA desactivado](docs/img/24-2fa-desactivado-mensaje.png)
 
 **Resultado en la tabla** (`secret_2fa` vuelve a `NULL`):
 
